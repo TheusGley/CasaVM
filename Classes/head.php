@@ -22,20 +22,30 @@ class head {
            
 
             
-            <i class="fas fa-bars btn-menumobile"></i>
-            
+            <i class="fas fa-bars btn-menumobile">      
+            </i>
+
+              
+
             <ul>
-                <li id ="#casaVM"> <h1> Casa Virtual </h1> </li>
-                <li><a href="comodos.php">Comodos</a></li>
-                <li><a href="tarefas.php">Lista de Tarefas</a></li>
-                <li><a href="login.php">Sair</a></li>
+                    <h2 > Casa Virtual  </h1>  
+                    <ul>
+                    
+                    <li><a href="comodos.php">Comodos</a></li>
+                    <li><a href="tarefas.php">Lista de Tarefas</a></li>
+                    <li><a href="login.php">Sair</a></li>
+            
+                    </ul>
             </ul>
-            </div>
+           </div>
         </nav>
         </head> 
 ';
     }
 
+
 }
+$head = new head;
+$head -> header();
 ?>
 
