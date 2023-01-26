@@ -7,7 +7,7 @@ session_start();
 $head = new Head;
 $head->header();
 
-
+echo "fiz um commit ";
 $select = new select();
 
 $sql_colunas = "*";
