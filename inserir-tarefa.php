@@ -1,6 +1,11 @@
 <?php
 
 require_once("config.php");
+session_start();
+
+$_SESSION[$page]= 4;
+
+
 
 
 
@@ -8,12 +13,14 @@ $inserir = new INSERT;
 $head = new head;
 
 $head->header();
-echo'
 
-<body>
+$funcoes = new funcoes; 
 
-  <h1> Preencha os campos </h1>
-  </body>   '
+echo $_SESSION[$page];
+
+$funcoes->inputs();
+
+
 
 
 

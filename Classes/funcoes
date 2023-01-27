@@ -1,0 +1,31 @@
+<?php
+
+
+class funcoes
+{
+    public function inputs($page)
+    {
+
+        switch ($page) {
+
+            case 4:
+
+                echo '
+                <input type="text" id="id_tarefa"> 
+                <input type="text" id="descricao">
+                <input type="text" id="data-cadastro">
+                <input type="text" id="data_execucao">
+                <input type="text" id="comodo">
+                ';
+        }
+
+
+
+
+
+
+    }
+}
+
+
+?>
