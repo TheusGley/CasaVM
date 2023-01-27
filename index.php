@@ -34,7 +34,7 @@ $head->header();
                                 </a>
                                 
                             
-                                <a href="comodo-quarto.php">
+                                <a href="comodo-banheiro.php">
                                     <img id="quarto" src="images/banheiro.png" alt="Banheiro">
                                 </a>
                             </div>

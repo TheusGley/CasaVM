@@ -21,7 +21,7 @@ class select
          $results = $query->fetchAll(PDO::FETCH_ASSOC);
 
         foreach ($results as $row) {
-            echo '<body>
+            echo '
             <div id="main-banner"><table class="table table-striped table-dark">
             <thead>
               <tr>

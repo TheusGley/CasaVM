@@ -16,9 +16,9 @@ $head->header();
 
 $funcoes = new funcoes; 
 
-echo $_SESSION[$page];
 
-$funcoes->inputs();
+
+$funcoes->inputs($_SESSION[$page]);
 
 
 

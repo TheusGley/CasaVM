@@ -28,7 +28,7 @@ class head {
               
 
             <ul>
-                    <h2 > Casa Virtual  </h1>  
+                    
                     <ul>
                     
                     <li><a href="comodos.php">Comodos</a></li>
@@ -39,13 +39,13 @@ class head {
             </ul>
            </div>
         </nav>
-        </head> 
+        </head>
+        
 ';
     }
 
 
 }
-$head = new head;
-$head -> header();
+
 ?>
 
